@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"sync"
 
+	"github.com/J3remias-Barcelos/hom3-broker/tree/main/go/internal/infra/kafka"
+	"github.com/J3remias-Barcelos/hom3-broker/tree/main/go/internal/market/dto"
+	"github.com/J3remias-Barcelos/hom3-broker/tree/main/go/internal/market/entity"
+	"github.com/J3remias-Barcelos/hom3-broker/tree/main/go/internal/market/transformer"
 	ckafka "github.com/confluentinc/confluent-kafka-go/kafka"
-	"github.com/devfullcycle/imersao13/go/internal/infra/kafka"
-	"github.com/devfullcycle/imersao13/go/internal/market/dto"
-	"github.com/devfullcycle/imersao13/go/internal/market/entity"
-	"github.com/devfullcycle/imersao13/go/internal/market/transformer"
 )
 
 func main() {

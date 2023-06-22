@@ -1,6 +1,6 @@
-module github.com/J3remias-Barcelos/hom3-broker/go
+module github.com/J3remias-Barcelos/hom3-broker/tree/main/go
 
-go 1.20
+go 1.16
 
 require (
 	github.com/confluentinc/confluent-kafka-go v1.9.2
