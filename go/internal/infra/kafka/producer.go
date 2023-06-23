@@ -1,9 +1,11 @@
 package kafka
 
-import ckafka "github.com/confluentinc/confluent-kafka-go/kafka"
+import (
+	ckafka "github.com/confluentinc/confluent-kafka-go/v2/kafka"
+)
 
 type Producer struct {
-	ConfigMap *ckafka.ConfigMap
+	ConfigMap ckafka.ConfigMap
 }
 
 func NewKafkaProducer(configMap *ckafka.ConfigMap) *Producer {
